@@ -16,6 +16,10 @@ class IndexController extends Controller {
         $this->view->render("index","test");
     }
     
+    function helloAction(){
+        echo "<h3>work</h3>";
+    }
+    
     function errorAction(){
         $error = new Error();
     }
